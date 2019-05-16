@@ -1,8 +1,6 @@
 body{
-    padding:0;
-    margin:0;
     font-family:Arial, Helvetica, sans-serif, 'helvetica neue';
-    background-image: url("../images/connectwork.png");
+    background-color:grey;
  }
 
  .noPadding{
@@ -10,16 +8,72 @@ body{
      margin:0;
  }
 
- @media (max-width:1920px){
+ #Header a:hover{
+     color: whitesmoke;
+ }
+
+ #bg-img{
+    background-image: url("../images/connectwork.png");
+    min-height: 500px;
+
+ }
+
+ .btnImageSize{
+    height: 200px;
+    width: 200px;
+}
+.imgIconSize{
+    height:25px;
+    width:25x;
+}
+
+i{
+    color:whitesmoke;
+}
+
+li {
+   list-style-type: none;
+}
+
+.hideOverflow{
+   overflow: hidden;
+}
+
+#About{
+    margin-top: -200px;
+}
+
+#About span{
+    padding: 10px 20px 10px 20px;
+}
+#About hr{
+    border-width: 2px;
+    margin-top:06px;
+}
+
+#Skills span{
+    padding: 10px 20px 10px 20px;
+}
+
+#Skills hr{
+    border-width: 2px;
+    margin-top:06px;
+}
+
+
+
+
+
+ /*@media (max-width:1920px){
     .navStyleLeft{
         display:flex;
         float: left;
-        /* float:none; */
+       
     }
     .navStyleRight{
         display:flex;
         float:right;
-        /* float:none; */
+        
     }
         }
 
@@ -27,12 +81,12 @@ body{
         .navStyleLeft{
             display:flex;
             float: left;
-            /* float:none; */
+            
         }
         .navStyleRight{
             display:flex;
             float:right;
-            /* float:none; */
+            
         }
             }
         
@@ -50,3 +104,4 @@ body{
         float: none;
     }
      }
+     */

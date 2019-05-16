@@ -1,53 +1,264 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>About me</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </head>
-<body>
-<div class="bg-white">
-    <div class="row">
-        <div class="col-12">
-        <span class="navStyleLeft text-white bg-info h1">
-        Michael Byron
-        </span>
-        <span class="navStyleRight">
-        <ul class="nav">
-             <li class="nav-item">
-                <a class="nav-link active" href="index.html">About</a>
-            </li>
-            <li class="nav-item">
-                 <a class="nav-link" href="portfolio.html">Portfolio</a>
-             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-        </ul>
-        </span>
-        </div>
+
+<body data-spy="scroll" data-target=".navbar">
+
+    <!--nav-->
+    <div id="Header">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a href="#" class="navbar-brand">
+                    <h3>portfolio</h3>
+                </a>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a href="#About" class="nav-link">About Me</a></li>
+                        <li class="nav-item"><a href="#Skills" class="nav-link">Skills</a></li>
+                        <li class="nav-item"><a href="#Works" class="nav-link">Works/Projects</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </div>
-</div>
-<br>
-<div class="container">
-    <div class="jumbotron">
-        <h1 class="text-info">About me</h1>
-        <hr>
-        <img src="./assets/images/happyface.jpg" alt="picture of me" height=100px width=100px class="float-left m-1">
-<p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quam perferendis error magni et minima officiis voluptas sed, beatae ex nisi eaque eius molestias aut minus voluptatem expedita, facere consectetur pariatur. Corporis ipsum magni quasi officia distinctio, aperiam doloribus, ut reprehenderit assumenda quaerat iusto dolore suscipit corrupti ea cupiditate dolor dolorem iste! Laboriosam provident non, sint vitae, natus vero officia ducimus incidunt laborum suscipit earum! Commodi necessitatibus velit molestiae assumenda in neque nostrum illo distinctio eum, aliquid aspernatur, architecto est vero error. Praesentium nobis blanditiis voluptas ea ratione, at deleniti repudiandae quas autem illum, rerum provident expedita veritatis dolores! Dolorem quam vero nobis quis similique deserunt corporis tempora fuga facere iste magni hic rerum debitis ab architecto eum perspiciatis repellendus ullam est voluptas temporibus harum, quo eveniet veniam. Nihil unde consequuntur cupiditate quam cum hic, odio veniam expedita dolores corporis quia voluptatem sed fugit dolorem natus nobis, eius, rem beatae.
-        </p>
+
+    <!--showcase-->
+    <div id="bg-img">
     </div>
-</div>
-<br><br><br>
-<div class="bg-secondary fixed-bottom">
-    <footer>
-        <hr class="bg-info noPadding">
-        <p class="text-center">copyright &copy</p> 
-    </footer>
-</div>
+
+
+    <!--about me-->
+    <div id="About">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div id="AboutData">
+                        <div class="card bg-white">
+                            <div class="card-title my-5">
+                                <div class="media">
+                                    <img src="assets/images/me.jpg" width="250" height="250"
+                                        class="img-fluid rounded mx-5 d-none d-lg-block">
+                                    <div class="media-body">
+                                        <h3 class="display-4 ml-5">Hello, I am Mike</h3>
+                                        <p class="text-muted ml-3">Programmer</p>
+                                        <div class="container">
+                                            <table>
+                                                <tr>
+                                                    <td>age</td>
+                                                    <td>:</td>
+                                                    <td>35</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>email</td>
+                                                    <td>:</td>
+                                                    <td><a
+                                                            href="mailto:michael.c.byron@gmail.com">michael.c.byron@gmail.com</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>age</td>
+                                                    <td>:</td>
+                                                    <td>35</td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-footer bg-primary">
+                                <a href="https://github.com/mbyron13"><i class="fab fa-github fa-2x mx-3"></i></a>
+                                <a href="https://www.linkedin.com/in/michael-byron-32b6307b/"><i
+                                        class="fab fa-linkedin fa-2x mx-3"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col">
+                        <span class="bg-danger text-white">About Me</span>
+                        <hr class="bg-danger">
+                        <div class="card bg-white">
+                            <p class="lead-text-justify">Hello, thank you for visiting my site! My name is Michael
+                                Byron. I am an aspiring coder looking to become a full stack developer. I am interested
+                                in learning more about Linux in general, and on learning new skills and technologies, as
+                                well as expanding my knowledge of the ones I already use.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--skill-->
+            <div id="Skills" class="mt-5">
+                <div class="container">
+                    <span class="bg-primary text-white">My Skills</span>
+                    <hr class="bg-primary">
+                    <div class="row">
+                        <div class="col">
+                            <div class="card bg-white">
+                                <h4 class="ml-3 my-2">HTML</h4>
+                                <h4 class="ml-3 my-2">CSS</h4>
+                                <h4 class="ml-3 my-2">JavaScript</h4>
+                                <h4 class="ml-3 my-2">Jquery</h4>
+                                <h4 class="ml-3 my-2">MySQL</h4>
+                                <h4 class="ml-3 my-2">Node.js</h4>
+                                <h4 class="ml-3 my-2">React</h4>
+                                <h4 class="ml-3 my-2">Sequelize</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--experience-->
+            <div id="Works">
+                <div class="container mt-5">
+                    <span class="bg-primary text-white">Projects</span>
+                    <hr class="bg-dark">
+                    <div class="row">
+                        <div class="col">
+                            <div class="card bg-white">
+                                <div class="text-center">
+
+                                    <div class="row justify-content-start">
+
+                                        <div class="col">
+                                            <div class="btn-group-vertical mt-3" role="group"
+                                                aria-label="Button group with nested dropdown">
+                                                <a href="https://mysterious-beach-35127.herokuapp.com/"
+                                                    class="btn btn-secondary active" role="button"
+                                                    aria-pressed="true"><img src="./assets/images/friend.jpg"
+                                                        alt="word friend" class="m-2 btnImageSize"><br>Friend Finder</a>
+
+                                                <a href="https://github.com/mbyron13/FriendFinder" class="btn btn-dark"
+                                                    role="button"><img src="./assets/images/github.svg"
+                                                        class="imgIconSize"> Friend Finder GitHub</a>
+                                            </div>
+                                        </div>
+
+                                        <div class="col">
+                                            <div class="btn-group-vertical mt-3" role="group"
+                                                aria-label="Button group with nested dropdown">
+                                                <a href="https://mbyron13.github.io/train-scheduler/index.html"
+                                                    class="btn btn-secondary active" role="button"
+                                                    aria-pressed="true"><img src="./assets/images/train.jpg"
+                                                        alt="Train Image" class="m-2 btnImageSize"><br>Train
+                                                    Scheduler</a>
+
+                                                <a href="https://github.com/mbyron13/train-scheduler"
+                                                    class="btn btn-dark" role="button"><img
+                                                        src="./assets/images/github.svg" class="imgIconSize"> Train
+                                                    Scheduler
+                                                    GitHub</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row justify-content-start">
+
+                                        <div class="col justify-content-start">
+                                            <div class="btn-group-vertical mt-3" role="group"
+                                                aria-label="Button group with nested dropdown">
+                                                <a href="https://lmurray298.github.io/TeamProject1/"
+                                                    class="btn btn-secondary active" role="button"
+                                                    aria-pressed="true"><img src="assets/images/weather.jpg"
+                                                        alt="Weather Icons" class="m-2 btnImageSize"><br>Weather API</a>
+
+                                                <a href="https://github.com/Lmurray298/TeamProject1"
+                                                    class="btn btn-dark" role="button"><img
+                                                        src="./assets/images/github.svg" class="imgIconSize"> Weather
+                                                    API GitHub</a>
+                                            </div>
+                                        </div>
+
+                                        <div class="col justify-content-start">
+                                            <div class="btn-group-vertical mt-3" role="group"
+                                                aria-label="Button group with nested dropdown">
+                                                <a href="https://mbyron13.github.io/unit-4-game/"
+                                                    class="btn btn-secondary active" role="button"
+                                                    aria-pressed="true"><img src="./assets/images/sapphire.png"
+                                                        alt="Sapphire" class="m-2 btnImageSize"><br>Crystal
+                                                    Collector</a>
+
+                                                <a href="https://github.com/mbyron13/unit-4-game" class="btn btn-dark"
+                                                    role="button"><img src="./assets/images/github.svg"
+                                                        class="imgIconSize"> Crystal Collector GitHub</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row justify-content-start">
+
+                                        <div class="col justify-content-start">
+                                            <div class="btn-group-vertical mt-3" role="group"
+                                                aria-label="Button group with nested dropdown">
+                                                <a href="https://mbyron13.github.io/TriviaGame"
+                                                    class="btn btn-secondary active" role="button"
+                                                    aria-pressed="true"><img src="./assets/images/popquiz.png"
+                                                        alt="Trivia" class="m-2 btnImageSize"><br>Trivia Game</a>
+
+                                                <a href="https://github.com/mbyron13/TriviaGame" class="btn btn-dark"
+                                                    role="button"><img src="./assets/images/github.svg"
+                                                        class="imgIconSize"> Trivia Game GitHub</a>
+                                            </div>
+                                        </div>
+
+                                        <div class="col justify-content-start">
+                                            <div class="btn-group-vertical mt-3" role="group"
+                                                aria-label="Button group with nested dropdown">
+                                                <a href="https://mbyron13.github.io/Word-Guess-Game/"
+                                                    class="btn btn-secondary active" role="button"
+                                                    aria-pressed="true"><img src="./assets/images/questionmark.png"
+                                                        alt="question mark" class="m-2 btnImageSize"><br>Word Guess
+                                                    Game</a>
+
+                                                <a href="https://github.com/mbyron13/Word-Guess-Game"
+                                                    class="btn btn-dark" role="button"><img
+                                                        src="./assets/images/github.svg" class="imgIconSize"> Word Guess
+                                                    Game
+                                                    GitHub</a>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
 </body>
+
 </html>
